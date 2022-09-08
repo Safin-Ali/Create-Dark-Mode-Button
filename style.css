@@ -1,0 +1,48 @@
+
+body{
+    background: var(--white-body-bg);
+}
+
+.toggle-dark-theme{
+    --lite-white: #1B2430;
+    --black-btn: #f7f7f7;
+    --white-body-bg: #1B1A17;
+    
+}
+
+:root{
+    --btn-green: #019267;
+    --white-btn: #f2f2f2;
+    --lite-white: #F7F7F7;
+    --white-body-bg: #efefef;
+    --black-btn: #1B2430;
+}
+
+
+
+#search-btn{
+    color: var(--white-btn);
+    background: var(--btn-green);
+    border: none;
+    padding: 5px 7px;
+    border-radius: 5px;
+    transition: all .2s linear;
+}
+#search-btn:hover{
+    color: var(--btn-green);
+    border: 1px solid var(--btn-green);
+    background: transparent;
+}
+
+#dark-btn{
+    color: var(--lite-white);
+    background: var(--black-btn);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.card{
+    color: var(--black-btn);
+    background: var(--lite-white);
+}
